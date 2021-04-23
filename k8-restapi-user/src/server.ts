@@ -39,11 +39,3 @@ const c = config.dev;
       console.log( `press CTRL+C to stop server` );
   } );
 })();
-
-echo "# k8-project" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ElsayedAhmed19/k8-project.git
-git push -u origin main
