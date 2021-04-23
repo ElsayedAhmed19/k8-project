@@ -1,0 +1,14 @@
+version: "3"
+services:
+  backend_user:
+    build:
+      context: ../../k8-restapi-user
+    image: elsayedahmed19/k8-restapi-user
+  backend_feed:
+    build:
+      context: ../../k8-restapi-feed
+    image: elsayedahmed19/k8-restapi-feed
+  frontend:
+    build:
+      context: ../../k8-frontend
+    image: elsayedahmed19/k8-frontend
