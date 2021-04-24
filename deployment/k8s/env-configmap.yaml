@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: test-602846058987-dev
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: hello
+  POSTGRES_DB: kubernatesdb
+  POSTGRES_HOST: kubernatesdb.c1vhr6sn3hob.us-east-1.rds.amazonaws.com
+  POSTGRES_USERNAME: kubernatesdb
+  POSTGRES_PASSWORD: kubernatesdb
+  URL: http://localhost:8100
+metadata:
+  name: env-config

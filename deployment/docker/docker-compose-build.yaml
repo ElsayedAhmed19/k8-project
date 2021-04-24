@@ -1,5 +1,9 @@
 version: "3"
 services:
+  reverseproxy:
+    build:
+      context: ../reverseproxy
+    image: elsayedahmed19/k8-reverseproxy
   backend_user:
     build:
       context: ../../k8-restapi-user
